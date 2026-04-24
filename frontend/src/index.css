@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-aiesec-light text-aiesec-dark font-sans;
+  }
+}
+
+@layer utilities {
+  .bg-impact-gradient {
+    background: linear-gradient(135deg, #007BFF 0%, #6f42c1 50%, #F85A2A 100%);
+  }
+  
+  .text-impact-gradient {
+    background: linear-gradient(135deg, #007BFF 0%, #6f42c1 50%, #F85A2A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 ease-in-out hover:scale-[1.03] hover:shadow-xl;
+  }
+}
+
+.hero-word-bg {
+  background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.15;
+}
