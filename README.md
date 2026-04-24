@@ -11,11 +11,11 @@ The following accounts have been pre-configured for testing. The default passwor
 
 | Name | Username / Email | Role | Function |
 | :--- | :--- | :--- | :--- |
-| **Administrator** | `admin` | Superuser | All |
-| **Youssef Alaa** | `youssefalla` | VP | F&L |
-| **Arein Akram** | `areinakram` | VP | TM |
-| **Mohamed Waleed** | `mohamedwaleed` | VP | B2B |
-| **Mohanad Medhat** | `mohanadmedhat` | VP | OGV |
+| **Administrator** | `admin@aiesec.net` | Superuser | All |
+| **Youssef Alaa** | `youssefalla@aiesec.net` | VP | F&L |
+| **Arein Akram** | `areinakram@aiesec.net` | VP | TM |
+| **Mohamed Waleed** | `mohamedwaleed@aiesec.net` | VP | B2B |
+| **Mohanad Medhat** | `mohanadmedhat@aiesec.net` | VP | OGV |
 
 ---
 
@@ -74,9 +74,3 @@ npm install
 # Start development server
 npm run dev
 ```
-
----
-
-## 🌍 Deployment
-
-To deploy to PythonAnywhere, follow the steps in the provided `walkthrough.md`. Ensure you use **Python 3.12** for the backend to support the latest Django features.
